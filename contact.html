@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Titillium+Web:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="light">
+    <div class="logo">
+      <a href="index.html">
+        <h1>GReview</h1>
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="drivers.html">Drivers</a>
+        </li>
+        <li>
+          <a href="irons.html">Irons</a>
+        </li>
+        <li>
+          <a href="putters.html">Putters</a>
+        </li>
+        <li>
+          <a href="gps.html">GPS</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="userPref">
+      <div class="selectFont">
+        <p data-fontsize='16'>A</p>
+        <p data-fontsize="20">A</p>
+      </div>
+      <div class="colour">
+        <div class="light"></div>
+        <div class="dark"></div>
+      </div>
+    </div>
+    <div class="mobile_menu">
+      <a href="#">
+        <i class="fa fa-bars" aria-hidden="true"></i>Menu</a>
+    </div>
+  </header>
+  <canvas width="1000" height="200"></canvas>
+  <main id="contact">
+    <div class="contact_header">
+      <h2 class="blue_txt">Contact Us</h2>
+      <h3>Enter Your Details To Receive The Latest News</h3>
+    </div>
+
+    <form>
+      <fieldset>
+        <legend>Please Enter Your Details</legend>
+
+        <div class="input first">
+          <label for="firstname">First name *</label>
+          <input type="text" name="firstname" id="firstname" placeholder="First name" required />
+          <span class="first err"></span>
+        </div>
+
+        <div class="input last">
+          <label for="lastname">Last name *</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Last name" required />
+          <span class="last err"></span>
+        </div>
+
+        <div class="input email">
+          <label for="email">Email address *</label>
+          <input type="email" name="email" id="email" placeholder="email@dommain.com" required />
+          <span class="email err"></span>
+        </div>
+        <button type="submit">Submit</button>
+
+
+
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <div class="logo">
+      <h2>GReview</h2>
+    </div>
+    <nav class="footer_nav">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="drivers.html">Drivers</a>
+        </li>
+        <li>
+          <a href="irons.html">Irons</a>
+        </li>
+        <li>
+          <a href="putters.html">Putters</a>
+        </li>
+        <li>
+          <a href="gps.html">GPS</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social">
+      <ul>
+        <li>
+          <a href="https://en-gb.facebook.com/">
+            <i class="fa fa-facebook-square fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com">
+            <i class="fa fa-twitter-square fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>Copyright © 2017. All Rights Reserved</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+</body>
+
+</html>

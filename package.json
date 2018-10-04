@@ -1,0 +1,14 @@
+{
+  "name": "GReview",
+  "version": "1.0.0",
+  "description": "Web Application's 2nd Yr Uni project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html -d public --public-url ./"
+  },
+  "author": "Chris Williams",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.3"
+  }
+}
