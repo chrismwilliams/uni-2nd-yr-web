@@ -6,7 +6,7 @@ Final version of a web application for a University 2nd Year Web Module
 
 ---
 
-### Included is the Parcel Web bundler
+### Included is the Parcel Asset bundler
 
 ```shell
 yarn install
