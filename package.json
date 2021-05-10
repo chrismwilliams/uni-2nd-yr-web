@@ -9,6 +9,6 @@
   },
   "author": "Chris Williams",
   "devDependencies": {
-    "parcel-bundler": "^1.9.3"
+    "parcel-bundler": "^1.12.5"
   }
 }
